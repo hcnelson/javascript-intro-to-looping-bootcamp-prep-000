@@ -11,8 +11,8 @@ function forLoop(array) {
 }
 
 function whileLoop(number) {
-  let countdown = number
   while(number > 0) {
-  console.log(--countdown)
+  return number
+  number -= 1
   }
 }
