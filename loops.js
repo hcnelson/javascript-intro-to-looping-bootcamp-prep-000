@@ -12,7 +12,7 @@ function forLoop(array) {
 
 function whileLoop(number) {
   while(number > 0) {
-  return number
+  console.log(number)
   number -= 1
   }
 }
